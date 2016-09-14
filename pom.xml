@@ -10,9 +10,9 @@
     <!--<version>8.0.36</version> -->
 
     <!-- <version>6.0.45-SNAPSHOT</version> -->
-    <!-- <version>7.0.70-SNAPSHOT</version> -->
+    <version>7.0.70-SNAPSHOT</version>
     <!-- <version>8.0.36-SNAPSHOT</version> -->
-    <version>8.5.5-SNAPSHOT</version>
+    <!-- <version>8.5.5-SNAPSHOT</version> -->
     <!-- <version>9.0.0.M9-SNAPSHOT</version> -->
 
     <name>tomcat-slf4j-logback</name>
@@ -139,7 +139,7 @@
         <tomcat8.version>8.0.36</tomcat8.version>
         <tomcat85.version>8.5.5</tomcat85.version>
         <tomcat9.version>9.0.0.M9</tomcat9.version>
-        <tomcat.version>${tomcat85.version}</tomcat.version>
+        <tomcat.version>${tomcat7.version}</tomcat.version>
     </properties>
 
     <profiles>
